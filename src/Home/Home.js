@@ -31,7 +31,7 @@ export function Home(){
                             </div>
                             <div class="row">
                                 <div class="col-3 text-end">
-                                 <i class="bi bi-vinyl-fill icono fw-bold"></i>
+                                 <i class="bi bi-vinyl icono fw-bold"></i>
                                 </div>
                                 <div class="col-9 text-start align-self-center">
                                     <h3 class="fw-bold">Med</h3>
@@ -41,7 +41,7 @@ export function Home(){
 
                             <div class="row">
                                 <div class="col-3 text-end">
-                                 <i class="bi bi-vinyl-fill icono fw-bold"></i>
+                                 <i class="bi bi-vinyl icono fw-bold"></i>
                                 </div>
                                 <div class="col-9 text-start align-self-center">
                                     <h3 class="fw-bold">Cali</h3>
@@ -51,7 +51,7 @@ export function Home(){
 
                             <div class="row">
                                 <div class="col-3 text-end">
-                                 <i class="bi bi-vinyl-fill icono fw-bold"></i>
+                                 <i class="bi bi-vinyl icono fw-bold"></i>
                                 </div>
                                 <div class="col-9 text-start align-self-center">
                                     <h3 class="fw-bold">Bog</h3>
@@ -78,14 +78,29 @@ export function Home(){
             <section>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12">
+                            <h1>NOTICIAS</h1>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 algin-self-center">
                            <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia1.jpg?alt=media&token=9e1fb4de-d6ea-468f-bc92-90f40ab7be62" alt="" class="img-fluid w-100"/>
+                           <p class="text-center">
+                            Incubus se presentara este 23 de octumbre en Malibu.ca, para su presentacion Morning View.
+                           </p>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 algin-self-center">
                            <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia2.webp?alt=media&token=83bf541c-e9eb-4d28-96ed-3211e7f51207" alt="" class="img-fluid w-100"/>
+                           <p class="text-center">
+                            Incubus rememorando dias importantes en su carrera, como las grabaciones en el estudio.
+                           </p>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 algin-self-center">
                            <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia3.jpg?alt=media&token=8dedd25e-e9cc-41aa-a025-06805502a575" alt="" class="img-fluid w-100"/>
+                           <p class="text-center">
+                            Incubus esta en proceso de creacion, con que nos sorprenderan esta vez?.
+                           </p>
                         </div>
                     </div>
                 </div>
