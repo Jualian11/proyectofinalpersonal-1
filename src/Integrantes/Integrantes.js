@@ -39,18 +39,18 @@ export function Integrantes(){
 
     return(
         <>
-            <h1 class="text-center fw-bold p-5">{titulo}</h1>
-            <div class="container">
-                <div class="row row-cols-1 row row-cols-md-3 g-5">
+            <h1 className="text-center fw-bold p-5">{titulo}</h1>
+            <div className="container">
+                <div className="row row-cols-1 row row-cols-md-3 g-5">
                     {
                         Integrantes.map(function(integrante){
                             return(
                                 <>
                                 
-                                    <div class="col h-100">
-                                        <h1 class="pb-3">{integrante.nombre}</h1>
-                                        <div class="clearfix">
-                                            <img src={integrante.foto} class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid rounded-1" alt="fotico"/>
+                                    <div className="col h-100">
+                                        <h1 className="pb-3">{integrante.nombre}</h1>
+                                        <div className="clearfix">
+                                            <img src={integrante.foto} className="col-md-6 float-md-end mb-3 ms-md-3 img-fluid rounded-1" alt="fotico"/>
 
                                             <h5>
                                              {integrante.historia}

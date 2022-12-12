@@ -1,6 +1,18 @@
 import { Footer } from "../shared/Footer/Footer"
+import { useNavigate } from "react-router-dom"
 
 export function Mercancia(){
+
+
+    //Activamos la navegacion entre componentes cuando se de un evento
+    let navegante=useNavigate() 
+
+    //que hago cuando se de el evento...
+    function detectarEventos(productoSeleccionado){
+        navegante('/tienda',{
+            state:{productoSeleccionado}
+        })
+    }
 
     let titulo="Productos de la banda ;)"
 
@@ -42,27 +54,28 @@ export function Mercancia(){
 
     return(
         <>
-            <h1 class="text-center fw-bold p-5">{titulo}</h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+            <h1 className="text-center fw-bold p-5">{titulo}</h1>
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-3 g-5">
                     
                     {
-                        productos.map(function(producto){
+                        productos.map(function(producto,id){
                             return(
-                                <>
-                                   <div class="col">
+                /*fragmento*/   <div  key={id}>
+                                   <div className="col">
 
-                                        <div class="card h-100 shadow">
+                                        <div className="card h-100 shadow">
 
-                                            <img src={producto.foto} alt="fotico" class="h-100 img-fluid w-100"/>
+                                            <img src={producto.foto} alt="fotico" className="h-100 img-fluid w-100 mt-3"/>
                                             <hr/>
-                                            <h3 class="pb-2 text-center">{producto.nombre}</h3>
-                                            <h4 class="pb-2 text-center">Precio: {producto.precio}</h4>
+                                            <h3 className="pb-2 text-center">{producto.nombre}</h3>
+                                            <h4 className="pb-2 text-center">Precio: {producto.precio}</h4>
                                             
+                                            <button className="btn btn-primary mx-5 mb-4" onClick={function(){detectarEventos(producto)}}>Ampliar</button>
                                         </div>
 
                                     </div> 
-                                </>
+                                </div>
                             )
                         })
                     }
