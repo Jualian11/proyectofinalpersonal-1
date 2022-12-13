@@ -1,0 +1,19 @@
+.descuento{
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+
+.precio{
+    padding: 15px;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+}
+
+.camion{
+    padding-top: 5px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
