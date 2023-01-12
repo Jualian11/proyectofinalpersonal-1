@@ -6,34 +6,34 @@ export function Integrantes(){
 
     let Integrantes=[
         {
-            nombre:"Brandon Boyd",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/Brandon-Boyd-Incubus.jpg?alt=media&token=54cf8db4-f79f-4603-88f7-b95a0af90975",
-            historia:"Brandon Charles Boyd Wiseman es un músico, escritor y artista estadounidense, especialmente conocido como líder y vocalista de la banda americana de rock alternativo Incubus."
+            nombre:"Pucho, Juan Pedro Martín Almarza",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/Pucho-vetusta.webp?alt=media&token=12687403-0c6a-45fe-865f-b3ee5592dc02",
+            historia:"Pucho es cantante e intérprete de Vetusta Morla desde 1998, con la que ha publicado cinco álbumes de estudio, dos en directo y dos bandas sonoras. Ha trabajado para la Filmoteca Española y el Museo Nacional Thyssen–Bornemisza, y ha formado parte de jurado de varios festivales de cine."
         },
         {
-            nombre:"Mike Einziger",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/Michael-Einziger-incubus.jpg?alt=media&token=1d7eb471-55d5-4882-a10d-6514d42d8926",
-            historia:"Michael Einziger es conocido principalmente por ser el guitarrista de la banda Incubus. Mike es multi instrumentista, ya que además de la guitarra toca el mellotron, el piano, sintetizadores, samplers y compone piezas orquestales. "
+            nombre:"Jorge González Giralda",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/Jorge_Gonz%C3%A1lez-vetusta.jpg?alt=media&token=69a4a7e9-0db3-4586-89a9-c434ec586772",
+            historia:"Percucionista y programador, no hay mucha informacion sobre el."
         },
         {
-            nombre:"Alex Katunich",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/Alex-Katunich-incubus.jpg?alt=media&token=47ccc5b2-418c-437c-9d5f-88cbd4ec1140",
-            historia:"Traducción del inglés-George Alex Katunich es un músico estadounidense. Es mejor conocido como el ex bajista de Incubus. Desde la escuela secundaria, Katunich ha usado el nombre artístico de Dirk Lance, que aparentemente fue tomado de los créditos de una película pornográfica de la década de 1970."
+            nombre:"David García",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/david-garcia-vetusta.jpg?alt=media&token=8ebcc15b-aab2-4eba-8a3c-40d4c5369da5",
+            historia:"Miembro de Vetusta Morla, David García –más conocido como “El Indio”– es además un gran experto en sonidos funk-rumberos-flamencos como lleva tiempo demostrando. Ahora es el responsable de la compilación “Gipsy Power."
         },
         {
-            nombre:"José Pasillas",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/JosePasillas-incubus.jpg?alt=media&token=4312eed7-ef2a-466e-b905-6f9e3276cc16",
-            historia:"José Antonio Pasillas es un baterista estadounidense, que actualmente está en la formación de la banda de rock Incubus."
+            nombre:"Guillermo Galván",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/Guille-galvan-vetusta.jpg?alt=media&token=ac476d36-994c-49b0-a3cc-2353b137dddc",
+            historia:"Miembro de Vetusta Morla, guitarrista."
         },
         {
-            nombre:"Chris Kilmore",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/ChrisKilmore-incubus.jpg?alt=media&token=6647f4ad-7e2a-4e35-bd35-e4d41fa6f665",
-            historia:"Chris Kilmore, conocido en el mundo de la música como DJ Kilmore, es un músico estadounidense. Es uno de los miembros de la banda de rock californiana Incubus ."
+            nombre:"Juan Manuel Latorre",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/juan-manuel-vetusta.jpg?alt=media&token=56722091-b2f7-4c1f-a5a1-dc2a58848dcb",
+            historia:"Miembro de Vetusta Morla, guitarrista."
         },
         {
-            nombre:"Ben Kenney",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/BenKenney-incubus.jpg?alt=media&token=c26558c4-8ebc-4010-afe1-fb96e5faf17b",
-            historia:"Benjamin Lee Kenney, es un músico de Brielle, NJ Estados Unidos, y el bajista de la banda Incubus. Ben Kenney tocaba la guitarra para el grupo de hip-hop The Roots antes de unirse a Incubus en 2003 después de la salida del bajista y miembro fundador Alex Katunich Dirk Lance."
+            nombre:"Álvaro B. Baglietto",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/Alvaro-b-vetusta.jpg?alt=media&token=ee538b1e-e44c-4f36-b2d6-4b04e5d8cd64",
+            historia:"Miembro de Vetusta Morla, bajista de la banda."
         }
     ]
 
