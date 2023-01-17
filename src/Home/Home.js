@@ -15,11 +15,11 @@ export function Home(){
                 <div className="container my-5">
                     <div className="row">
                         <div className="col-12 col-md-8">
-                            <h2>INCUBUS</h2>
+                            <h2>VETUSTA MORLA</h2>
                             <p>
-                                Incubus es una banda de rock alternativo estadounidense formado por el vocalista Brandon Boyd, guitarrista Mike Einziger y batería José Pasillas cuando estudiaban juntos y después expandieron con la inclusión del bajista Alex "Dirk Lance" Katunich y Gavin "DJ Lyfe" Koppell; ambos reemplazados finalmente por Ben Kenney y DJ Kilmore respectivamente. Para el 2001 tuvieron un enorme éxito con el sencillo "Drive", seguido de su álbum Morning View. En 2003, la banda establece la fundación "Make Yourself Foundation" para donar dinero a fundaciones de beneficencia
+                            Vetusta Morla es una banda española de indie rock originaria de Tres Cantos, Madrid, que canta en español. Tras nueve años de andadura musical, en febrero de 2008 publicaron su primer largo, Un día en el mundo. Tres años más tarde, en 2011, publicaron su segundo álbum, MapasEl 8 de abril de 2014, tras varios años de gira por España y otros países, publican su tercer álbum, La deriva. En 2017 publican su cuarto álbum Mismo sitio, distinto lugar. En 2021 publican su quinto álbum Cable a tierra. La banda debe su nombre al personaje la Vetusta Morla de La historia interminable, la tortuga anciana gigante ("vetusta" en español es sinónimo de vieja, anciana​).
                             </p>
-                            <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/21753018_10155226596903999_29998736812000224_o.jpg?alt=media&token=335e9325-5a9f-4fe9-ba57-0a2333222108" className="img-fluid w-100"></img>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/Banner-vetusta.jpg?alt=media&token=a6fd55bc-9713-4f3e-ae05-faf8b22de8de" className="img-fluid w-100 h-9"></img>
                         </div>
 
                         <div className="col-12 col-md-4 border-start align-self-center bg-dark text-white p-5">
@@ -31,17 +31,17 @@ export function Home(){
                             </div>
                             <div className="row">
                                 <div className="col-3 text-end">
-                                 <i className="bi bi-vinyl icono fw-bold"></i>
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
                                 </div>
                                 <div className="col-9 text-start align-self-center">
-                                    <h3 className="fw-bold">Med</h3>
+                                    <h3 className="fw-bold">Medellín</h3>
                                     <h5>Dec 2</h5>
                                 </div>
                             </div>  
 
                             <div className="row">
                                 <div className="col-3 text-end">
-                                 <i className="bi bi-vinyl icono fw-bold"></i>
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
                                 </div>
                                 <div className="col-9 text-start align-self-center">
                                     <h3 className="fw-bold">Cali</h3>
@@ -51,10 +51,10 @@ export function Home(){
 
                             <div className="row">
                                 <div className="col-3 text-end">
-                                 <i className="bi bi-vinyl icono fw-bold"></i>
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
                                 </div>
                                 <div className="col-9 text-start align-self-center">
-                                    <h3 className="fw-bold">Bog</h3>
+                                    <h3 className="fw-bold">Bogota</h3>
                                     <h5>Dec 4</h5>
                                 </div>
                             </div>  
@@ -64,7 +64,7 @@ export function Home(){
                                  <i className="bi bi-vinyl-fill icono fw-bold"></i>
                                 </div>
                                 <div className="col-9 text-start align-self-center">
-                                    <h3 className="fw-bold">Barr</h3>
+                                    <h3 className="fw-bold">Barranquilla</h3>
                                     <h5>Dec 5</h5>
                                 </div>
                             </div>  
@@ -79,27 +79,27 @@ export function Home(){
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-12">
-                            <h1>NOTICIAS</h1>
+                            <h1 className='text-center'>NOTICIAS</h1>
                             <hr/>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-4 algin-self-center">
-                           <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia1.jpg?alt=media&token=9e1fb4de-d6ea-468f-bc92-90f40ab7be62" alt="" className="img-fluid w-100"/>
+                           <img src="https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/vetusta-morla-evento.jpg?alt=media&token=7f39b7dd-4980-4953-a223-3af1907989fa" alt="" className="img-fluid w-100"/>
                            <p className="text-center">
-                            Incubus se presentara este 23 de octumbre en Malibu.ca, para su presentacion Morning View.
+                            Vetusta Morla se presentara en el altavoz, en esta oportunidad con su nuevo album, Cable a Tierra.
                            </p>
                         </div>
                         <div className="col-12 col-md-4 algin-self-center">
-                           <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia2.webp?alt=media&token=83bf541c-e9eb-4d28-96ed-3211e7f51207" alt="" className="img-fluid w-100"/>
+                           <img src="https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/vetusta-morla-gira-2023.jpg?alt=media&token=a3fd1d35-31d3-489c-99f7-bbc40f95ca7e" alt="" className="img-fluid w-100"/>
                            <p className="text-center">
-                            Incubus rememorando dias importantes en su carrera, como las grabaciones en el estudio.
+                            Vetusta Morla rememorando dias importantes en su carrera, como las grabaciones en el estudio de Cable a Tierra.
                            </p>
                         </div>
                         <div className="col-12 col-md-4 algin-self-center">
-                           <img src="https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/noticia3.jpg?alt=media&token=8dedd25e-e9cc-41aa-a025-06805502a575" alt="" className="img-fluid w-100"/>
+                           <img src="https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/vetusta-morla-nuevo-disco-cable-tierra.jpg?alt=media&token=be6fc7cd-30a7-454a-8331-bd6e844f2fcd" alt="" className="img-fluid w-100"/>
                            <p className="text-center">
-                            Incubus esta en proceso de creacion, con que nos sorprenderan esta vez?.
+                            Vetusta Morla nos sorprendio gratamente con su nuevo album y los videos musicales de este, estan evolucionando.
                            </p>
                         </div>
                     </div>

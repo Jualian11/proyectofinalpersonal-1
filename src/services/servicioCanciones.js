@@ -1,6 +1,11 @@
 //Receta para consumir un API con React.
 
+import { generarToken } from "./servicioToken.js"
+
 export async function servicioCancionesTop(){
+
+
+    let token=await generarToken()
 
     //1. Pa' onde vas y a que vas?: Escribir la url del servicio del API
 
@@ -11,7 +16,7 @@ export async function servicioCancionesTop(){
 
     const REQUEST= {
         method:"GET",
-        headers:{Authorization:"Bearer BQAv4RUwN7YNmWRX7e8ImvuN7mmAxVPAforbfcWIsSoIIDEOJLwj00Q0ScrQW3FUxBNomD5xIwtSEYRcDerUJbryFhwpctmvXhk9zRWPPniyn1s76tA3Fswiub32YIcYGOeuFLee6_6oSev6syud3Esk35_0rPUY1FiSVCkVUiUWR21s7cOtT_Sz4uTNkQI"}
+        headers:{Authorization:token}
     }
 
     //3. Consumimos el API

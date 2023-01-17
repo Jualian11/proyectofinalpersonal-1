@@ -1,5 +1,7 @@
 import { servicioCancionesTop } from "../services/servicioCanciones"
 import { useState, useEffect} from "react"
+import { Footer } from "../shared/Footer/Footer"
+
 
 export function Music(){
 
@@ -31,19 +33,31 @@ export function Music(){
 
         return(
             <>
-                <h2>Canciones de la banda: </h2>
-                {
-                    canciones.tracks.map(function(cancion){
-                        return(
-                            <>
-                                <h1>{cancion.name}</h1>
-                                <audio controls src={cancion.preview_url}></audio>
-                                <img src={cancion.album.images[0].url}></img>
-                            </>
-                            
-                        )
-                    })
-                }
+                <h2 className="ms-5 my-5 text-uppercase">Canciones de la banda: </h2>
+                    <div className="row row-cols-1 row-cols-md-4 rounded bg-dark mx-2 my-2 g-5">
+                        
+                            {
+                                canciones.tracks.map(function(cancion){
+                                    return(
+                                        <>
+                                        <div className="mx-5 col">
+                                            <div className="card h-100">
+                                            
+                                            <h1 className="my-2 pt-4 text-center ">{cancion.name}</h1>
+                                            <audio controls src={cancion.preview_url} className="my-2 align-self-center"></audio>
+                                            <div className="p-4 rounded border border-light ">
+                                                <img src={cancion.album.images[0].url} className="img-fluid w-100 h-5 rounded "></img>
+                                            </div>
+                                            </div>
+                                            
+                                        </div>
+                                        </>
+                                        
+                                    )
+                                })
+                            }
+                    </div>
+                <Footer/>
             </>
         )
     }

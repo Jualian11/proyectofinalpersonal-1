@@ -20,43 +20,43 @@ export function Mercancia(){
 
         {
             nombre:"T-shirt Original Importada",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/incubus%20t-shirt-1.jpg?alt=media&token=04641460-5014-4f1b-a13b-755c0cf3ce30",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/VM-tshirt-apagon.jpg?alt=media&token=da01967b-c84b-47f2-a78d-3cde1273becb",
             descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)",
-            precio:40 +"$"
+            precio:35 +"$"
             
         },
         {
             nombre:"T-shirt Original Importada",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/incubus%20t-shirt.jpg?alt=media&token=ad5b0f75-1f5e-4802-b1e0-9692ab97fbce",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/VM-tshirt-azul.jpg?alt=media&token=15e7ef4a-11c6-4eac-8945-f63435936ce7",
             descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)",
-            precio:40 +"$"
+            precio:35 +"$"
             
         },
         {
-            nombre:"Tank Original Importada",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/incubus%20tank.jpg?alt=media&token=0d2d1b11-c8e4-4951-b8f1-67c1f6ce3997",
+            nombre:"T-shirt Original Importada",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/VM-tshirt-cATierra.jpg?alt=media&token=36ec1c84-0fc0-43dd-b6e2-56e76b43429d",
             descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)",
-            precio:30 +"$"
-            
-        },
-        {
-            nombre:"Sweater Original Importada",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/incubus%20sweater-1.jpeg?alt=media&token=e6d13ac7-73f3-4544-8587-bc488d440abc",
-            descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)",
-            precio:60 +"$"
+            precio:35 +"$"
             
         },
         {
             nombre:"Sweater Original Importada",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/incubus%20sweater-2.jpeg?alt=media&token=bf07edea-f10d-482b-9397-fda312275f93",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/VM_SUDADERA.jpg?alt=media&token=64a0d739-2598-459d-b1e1-f9a20bafd571",
             descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)",
-            precio:60 +"$"
+            precio:50 +"$"
             
         },
         {
-            nombre:"Sweater Original Importada",
-            foto:"https://firebasestorage.googleapis.com/v0/b/spotyjv-121a0.appspot.com/o/incubus%20sweater.jpeg?alt=media&token=f2af47d9-0ca0-4245-825f-6aa7c87977e6",
-            precio:60 +"$",
+            nombre:"T-shirt Original Importada",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/VM-tshirt-gris.jpg?alt=media&token=f93dc62f-a878-4344-8dc0-72686dd54ec9",
+            descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)",
+            precio:35 +"$"
+            
+        },
+        {
+            nombre:"T-shirt Original Importada",
+            foto:"https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/VM-tshirt-uDeEmundo.jpg?alt=media&token=f571c6e5-4812-4cf0-a2e5-351420e1ef8f",
+            precio:35 +"$",
             descripcion:"100% en Algodon, eco-friendly, todas las tallas, todos los generos, animal-friendly, lgtbq+++, sin colorantes artificiales, original importada, de la tienda a tu casa. ;)"
         }
         
@@ -76,8 +76,8 @@ export function Mercancia(){
                                    <div className="col">
 
                                         <div className="card h-100 shadow">
-
-                                            <img src={producto.foto} alt="fotico" className="h-100 img-fluid w-100 mt-3"/>
+                                           
+                                            <img src={producto.foto} alt="foticos" id="fotico" className="figure-img img-fluid rounded w-100"/>
                                             <hr/>
                                             <h3 className="pb-2 text-center">{producto.nombre}</h3>
                                             <h4 className="pb-2 text-center">Precio: {producto.precio}</h4>

@@ -1,12 +1,12 @@
 .banner{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/jjgtiendatcc.appspot.com/o/banner.jpg?alt=media&token=277b2663-b94b-4bd8-b6de-0b3c113541c9');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/stopify-banda.appspot.com/o/Banner-vetusta_morla-2.jpg?alt=media&token=a4d9cb8f-3a89-40b3-8e41-e9d182fbcf15');
     background-position: top center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    padding: 30%;
+    padding: 15%;
 
 }
 
 .icono{
-    font-size: 80px;
+    font-size: 73px;
 }
